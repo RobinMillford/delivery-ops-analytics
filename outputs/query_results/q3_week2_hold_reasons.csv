@@ -1,0 +1,7 @@
+hub_id,hub_name,total_holds,agent_side_holds,agent_side_share,top_1_hold_reason,top_1_hold_count,top_2_hold_reason,top_2_hold_count
+H01,Greenfield,168,32,0.19047619047619047,Customer Unreachable,73,Customer Rescheduled,35
+H02,Lakeview,123,26,0.21138211382113822,Customer Unreachable,50,Customer Rescheduled,25
+H03,Riverside,874,563,0.6441647597254004,Late Dispatch,312,Customer Unreachable,156
+H04,Hillcrest,182,40,0.21978021978021978,Customer Unreachable,77,Customer Rescheduled,39
+H05,Brookside,186,49,0.26344086021505375,Customer Unreachable,68,Customer Rescheduled,43
+H06,Westwood,146,30,0.2054794520547945,Customer Unreachable,66,Customer Rescheduled,28

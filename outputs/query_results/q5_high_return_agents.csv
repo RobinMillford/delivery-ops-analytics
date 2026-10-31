@@ -1,0 +1,4 @@
+agent_id,agent_name,hub_id,salary_type,tenure_days,Assigned,Returned,return_ratio
+A1045,Belis Rowntree,H05,Variable,463,349,94,0.2693409742120344
+A1046,Coris Halvorsen,H05,Fixed,647,414,91,0.21980676328502416
+A1047,Wenian Vantell,H05,Variable,526,413,72,0.17433414043583534

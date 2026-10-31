@@ -1,0 +1,7 @@
+hub_id,hub_name,cluster,delivered_attempts,available_agent_days,avg_deliveries_per_agent_day
+H01,Greenfield,Cluster A,3908,147,26.58503401360544
+H02,Lakeview,Cluster A,3001,154,19.48701298701299
+H03,Riverside,Cluster B,3479,168,20.708333333333332
+H04,Hillcrest,Cluster B,3798,126,30.142857142857142
+H05,Brookside,Cluster C,3411,154,22.149350649350648
+H06,Westwood,Cluster C,3481,133,26.172932330827066

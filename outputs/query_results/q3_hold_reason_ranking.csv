@@ -1,0 +1,37 @@
+hub_id,hold_reason,hold_count,reason_rank
+H01,Customer Unreachable,73,1
+H01,Customer Rescheduled,35,2
+H01,Address Incomplete,28,3
+H01,Agent Time Shortage,13,4
+H01,Not Attempted,11,5
+H01,Late Dispatch,8,6
+H02,Customer Unreachable,50,1
+H02,Customer Rescheduled,25,2
+H02,Address Incomplete,22,3
+H02,Agent Time Shortage,10,4
+H02,Not Attempted,9,5
+H02,Late Dispatch,7,6
+H03,Late Dispatch,312,1
+H03,Customer Unreachable,156,2
+H03,Not Attempted,132,3
+H03,Agent Time Shortage,119,4
+H03,Customer Rescheduled,92,5
+H03,Address Incomplete,63,6
+H04,Customer Unreachable,77,1
+H04,Customer Rescheduled,39,2
+H04,Address Incomplete,26,3
+H04,Late Dispatch,20,4
+H04,Agent Time Shortage,10,5
+H04,Not Attempted,10,6
+H05,Customer Unreachable,68,1
+H05,Customer Rescheduled,43,2
+H05,Address Incomplete,26,3
+H05,Late Dispatch,17,4
+H05,Agent Time Shortage,16,5
+H05,Not Attempted,16,6
+H06,Customer Unreachable,66,1
+H06,Customer Rescheduled,28,2
+H06,Address Incomplete,22,3
+H06,Agent Time Shortage,13,4
+H06,Late Dispatch,10,5
+H06,Not Attempted,7,6

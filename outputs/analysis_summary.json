@@ -1,0 +1,226 @@
+{
+  "data_validation": {
+    "tables": [
+      {
+        "table": "hubs",
+        "rows": 6,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "agents",
+        "rows": 64,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "orders",
+        "rows": 22789,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "order_logs",
+        "rows": 51190,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 48148
+      },
+      {
+        "table": "agent_salary",
+        "rows": 2,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "costs",
+        "rows": 5,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "rules",
+        "rows": 8,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      },
+      {
+        "table": "volume_forecast",
+        "rows": 24,
+        "missing_columns": [],
+        "duplicate_rows": 0,
+        "null_cells": 0
+      }
+    ],
+    "relationships": {
+      "orders_unique": true,
+      "logs_unique": true,
+      "agents_unique": true,
+      "logs_all_orders_match": true,
+      "logs_all_agents_match": true,
+      "orders_all_hubs_match": true,
+      "forecast_all_hubs_match": true
+    },
+    "passed": true
+  },
+  "headline": {
+    "orders_week_1": 10534,
+    "orders_week_2": 12255,
+    "order_growth_pct": 16.33757357129295,
+    "assigned_attempts_week_1": 11689,
+    "assigned_attempts_week_2": 13906,
+    "attempt_growth_pct": 18.966549747625972,
+    "orders_total": 22789,
+    "assigned_attempts_total": 25595,
+    "delivered_total": 21078,
+    "hold_events_total": 3042,
+    "return_events_total": 1475,
+    "held_orders_total": 2599,
+    "held_orders_delivered": 2118,
+    "held_orders_returned": 245,
+    "held_orders_still_hold": 236
+  },
+  "strategic": {
+    "standard_attempts_per_agent_per_day": 40.0,
+    "target_utilisation": 0.85,
+    "workdays_per_month": 26,
+    "new_agent_speed_first_7_days": 0.6,
+    "agent_side_hold_reduction_full_effect": 0.5,
+    "hold_programme_days_to_full_effect": 14,
+    "programme_hub": "H03",
+    "programme_cost": 15000.0,
+    "programme_holds_avoided": 856.0684931506848,
+    "programme_cash_saving": 25682.054794520547,
+    "programme_net_cash_benefit": 10682.054794520547,
+    "new_agent_month_attempts": 814.0,
+    "h04_delivery_rate": 0.8713007570543703,
+    "estimated_h04_deliveries_per_new_agent": 709.2388162422574,
+    "fixed_monthly_salary_per_new_agent": 16900.0,
+    "variable_monthly_cost_per_new_agent_at_h04": 17729.343427391603,
+    "total_hire_salary": 33800.0,
+    "total_hiring_fees": 10000.0,
+    "total_transfer_cost": 4000.0,
+    "total_programme_cost": 15000.0,
+    "total_budget_spend": 62800.0,
+    "budget_limit": 70000,
+    "budget_remaining": 7200.0,
+    "final_status_reconciliation_passed": true,
+    "assigned_attempts": 25595,
+    "outcome_events": 25595,
+    "orders_count": 22789
+  },
+  "transfer_recommendation": [
+    {
+      "agent_id": "A1018",
+      "agent_name": "Lorus Brannick",
+      "from_hub": "H02",
+      "to_hub": "H01",
+      "salary_type": "Fixed",
+      "delivery_ratio": 0.9278350515463918,
+      "return_ratio": 0.030927835051546393
+    },
+    {
+      "agent_id": "A1015",
+      "agent_name": "Toren Larkin",
+      "from_hub": "H02",
+      "to_hub": "H01",
+      "salary_type": "Fixed",
+      "delivery_ratio": 0.9085545722713865,
+      "return_ratio": 0.02654867256637168
+    }
+  ],
+  "new_hires": [
+    {
+      "hub_id": "H04",
+      "hub_name": "Hillcrest",
+      "count": 2,
+      "salary_type": "Fixed",
+      "monthly_salary_per_agent": 16900.0,
+      "hire_fee_per_agent": 5000.0
+    }
+  ],
+  "programme_weekly": [
+    {
+      "hub_id": "H03",
+      "week_start": "2026-10-27",
+      "week_end": "2026-11-02",
+      "expected_orders": 2170,
+      "programme_progress": 0.25,
+      "hold_reduction_fraction": 0.125,
+      "agent_side_hold_rate_per_order": 0.25707762557077624,
+      "avoided_holds": 69.73230593607306,
+      "adjusted_attempts_per_order": 1.36101598173516,
+      "adjusted_attempts": 2953.404680365297,
+      "utilisation_vs_standard": 0.8789894882039574,
+      "required_agents_at_target": 13,
+      "hold_cost_saving_bdt": 2091.969178082192
+    },
+    {
+      "hub_id": "H03",
+      "week_start": "2026-11-03",
+      "week_end": "2026-11-09",
+      "expected_orders": 2230,
+      "programme_progress": 0.75,
+      "hold_reduction_fraction": 0.375,
+      "agent_side_hold_rate_per_order": 0.25707762557077624,
+      "avoided_holds": 214.98116438356163,
+      "adjusted_attempts_per_order": 1.2967465753424658,
+      "adjusted_attempts": 2891.7448630136987,
+      "utilisation_vs_standard": 0.8606383520874104,
+      "required_agents_at_target": 13,
+      "hold_cost_saving_bdt": 6449.434931506849
+    },
+    {
+      "hub_id": "H03",
+      "week_start": "2026-11-10",
+      "week_end": "2026-11-16",
+      "expected_orders": 2245,
+      "programme_progress": 1.0,
+      "hold_reduction_fraction": 0.5,
+      "agent_side_hold_rate_per_order": 0.25707762557077624,
+      "avoided_holds": 288.5696347031963,
+      "adjusted_attempts_per_order": 1.2646118721461188,
+      "adjusted_attempts": 2839.0536529680367,
+      "utilisation_vs_standard": 0.8449564443357251,
+      "required_agents_at_target": 12,
+      "hold_cost_saving_bdt": 8657.08904109589
+    },
+    {
+      "hub_id": "H03",
+      "week_start": "2026-11-17",
+      "week_end": "2026-11-23",
+      "expected_orders": 2200,
+      "programme_progress": 1.0,
+      "hold_reduction_fraction": 0.5,
+      "agent_side_hold_rate_per_order": 0.25707762557077624,
+      "avoided_holds": 282.7853881278539,
+      "adjusted_attempts_per_order": 1.2646118721461188,
+      "adjusted_attempts": 2782.1461187214613,
+      "utilisation_vs_standard": 0.8280196781909112,
+      "required_agents_at_target": 12,
+      "hold_cost_saving_bdt": 8483.561643835616
+    }
+  ],
+  "strict_85pct_alternative": {
+    "description": "Hire 1 additional Variable agent at H03 rather than fund the hold programme; retain 2 Fixed hires at H04 and 2 transfers H02->H01.",
+    "h03_variable_salary_month": 15235.612153038259,
+    "total_cost": 68035.61215303827
+  },
+  "assumptions": [
+    "Daily Q1 table includes every employed agent-day: all agents during Week 1 and only Active agents during Week 2; zero-activity days are retained.",
+    "Utilisation = Assigned events / (available agents * 40 attempts/day * 7 calendar days). Week 1 includes the two agents who left at its end; Week 2 excludes them.",
+    "Q3 agent-side holds are Late Dispatch, Not Attempted and Agent Time Shortage; all other hold reasons are customer-side.",
+    "Q4 counts unique orders held at least once and uses orders.final_status to classify the final outcome.",
+    "Q5 return ratio = Returned outcome events / Assigned attempt events; tenure is measured on 26 October 2026 and must be strictly greater than 30 days.",
+    "Q6 workday = an agent-day with at least one Assigned event. Fixed salary is monthly salary / 26; Variable pay includes daily allowance per working day and per-delivery allowance on Delivered outcomes. Hold and return charges are event-week costs. Cost per delivered order uses Delivered outcome events in the same week.",
+    "Q7 forecasts use the full 14-day observed attempts-per-order ratio by hub. The 85% planning target is applied to the 40-attempt standard, giving 34 planned attempts per agent per day.",
+    "For Q8/Q9 H03 stress modelling, Week 2 attempts-per-order is used as a conservative recent baseline. The hold programme reaches 50% reduction of agent-side holds linearly over 14 calendar days, starting 27 October.",
+    "New Fixed hires at H04 are assumed to work 26 paid days in the first month. During the first 7 days they operate at 60% of 40 standard attempts/day; thereafter they are planned at 85% of standard."
+  ]
+}
