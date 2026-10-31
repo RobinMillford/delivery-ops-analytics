@@ -48,6 +48,29 @@ def apply_theme():
         [data-testid="stDataFrame"] {{ border:1px solid {BORDER}; border-radius:12px; overflow:hidden; }}
         .stButton>button {{ background:{ACCENT}; color:#182231; border:0; border-radius:9px; font-weight:700; }}
         .stDownloadButton>button {{ background:#223651; color:{TEXT}; border:1px solid {BORDER}; border-radius:9px; }}
+        /* Multiselect / Filter bar tag readability */
+        [data-testid="stMultiSelect"] [data-tag],
+        [data-testid="stMultiSelect"] [data-baseweb="tag"],
+        .stMultiSelect [data-tag],
+        .stMultiSelect [data-baseweb="tag"] {{
+            background-color: {ACCENT} !important;
+            color: #0B1220 !important;
+            font-weight: 700 !important;
+            border-radius: 6px !important;
+        }}
+        [data-testid="stMultiSelect"] [data-tag] *,
+        [data-testid="stMultiSelect"] [data-baseweb="tag"] *,
+        .stMultiSelect [data-tag] *,
+        .stMultiSelect [data-baseweb="tag"] * {{
+            color: #0B1220 !important;
+            stroke: #0B1220 !important;
+            fill: #0B1220 !important;
+        }}
+        [data-testid="stMultiSelect"] [data-tag] button:hover,
+        [data-testid="stMultiSelect"] [data-baseweb="tag"] button:hover {{
+            background-color: rgba(11, 18, 32, 0.15) !important;
+            border-radius: 50% !important;
+        }}
         hr {{ border-color:{BORDER}; }}
         </style>
         """,
